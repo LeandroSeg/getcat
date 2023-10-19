@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Play&family=Roboto:wght@100&display=swap');
+
+
+#tituloPrincipal {
+    font-family: 'Cookie', cursive;
+    
+    font-size: 64px;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: red;
+    justify-content:space-around;
+}
+
+
+
+.btn {
+    background-color: red;
+    aspect-ratio: 1 / 1;
+    width: 33vw;        
+    height: 33vw;    
+    border-width: 0px;
+}
+
+.imgbt {
+    width: 100%;
+    height: auto;
+    box-shadow: 9px 9px 9px #000000;
+}
+
+
+.abbutton {
+    font-family: impact;
+    color: #14396A !important;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid #3866A3;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63B8EE, #468CCF);
+  }
+
+.abbutton:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
+    font-size: 17px;
+    transition: all 0.8s;
+  }
+
+
+@media (max-width: 625px) {
+    .btn {
+        width: 66vw;  
+        height: 66vw;
+    }
+}

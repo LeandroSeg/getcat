@@ -1,0 +1,7 @@
+
+ - formatar o src
+ - remover lixo do codigo
+ ok- por about
+ ok- por miado
+ ok- melhorar a apresentação básica
+ ok- nome showcat correto?

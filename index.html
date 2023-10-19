@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GetCat - clique no gatinho</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="showcat.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <div id="tituloPrincipal">GetCat</div>
+            <div id="areaImgRot">
+                <form class="form-mycat">
+                    <button mycat-submit class="btn" type="submit"><img class="imgbt" src="img/cat1.jpeg"></button>
+                </form>
+            </div>            
+            <button class="abbutton">LS</button>
+        </main>
+    </body>
+</html>
+
+<script>
+     
+    const submit = this.document.querySelector('.btn')
+    submit.addEventListener("click", trocarImagem, true )
+
+    var botao = document.querySelector(".abbutton")    
+    botao.onmouseover = function() {
+        botao.innerHTML="Leandro Segatti (2024)"
+    }
+    botao.onmouseout = function() {
+        botao.innerHTML="LS"
+    }        
+    
+    function trocarImagem(e)
+    {
+        e.preventDefault();        
+        iniciar(document)
+    }
+
+</script>
